@@ -1,0 +1,57 @@
+.general{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    height: auto;
+    
+}
+.div1{
+    display: flex;
+}
+
+#container-productos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 1200px;
+    flex-wrap: wrap;
+    
+}
+
+#carrito-container{
+    height: 2000px;
+    display: flex;
+    align-items: center;
+}
+
+.agregar__carrito{
+    text-decoration: none;
+    color: #000;
+    padding: 4px 10px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.card{
+    width: 300px;
+    padding: 30px 10px;
+    border: 1px solid #000;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.card-body {
+    text-align: center;
+ 
+}
+.card-img-top{
+    height: 18rem;
+    text-align: center;
+    width: 18rem;
+}
+
+.bienvenida{
+    text-align: center;
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
